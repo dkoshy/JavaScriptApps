@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "firstName": "Deepak",
+    "lastName": "Koshy",
+    "isActive": true,
+    "dateOfJoining": "2023-May-17",
+    "department": "Engineering"
+  },
+  {
+    "id": 2,
+    "firstName": "Kumar",
+    "lastName": "Santhosh",
+    "isActive": true,
+    "dateOfJoining": "2023-May-30",
+    "department": "Finance"
+  },
+  {
+    "id": 3,
+    "firstName": "Arun",
+    "lastName": "Bharath",
+    "isActive": true,
+    "dateOfJoining": "2023-July-22",
+    "department": "HR"
+  },
+  {
+    "id": 4,
+    "firstName": "Rajeev",
+    "lastName": "Koshy",
+    "isActive": true,
+    "dateOfJoining": "2023-June-25",
+    "department": "Engineering"
+  },
+  {
+    "id": 5,
+    "firstName": "Sumesh",
+    "lastName": "Nair",
+    "isActive": true,
+    "dateOfJoining": "2023-May-17",
+    "department": "Engineering"
+  }
+  
+]

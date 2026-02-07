@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "javascriptLangBasics"
+		},
+		{
+			"path": "JavascriptVariables"
+		}
+	],
+	"settings": {
+		"editor.fontSize": 20,
+		"editor.cursorBlinking": "expand",
+		"editor.fontWeight": "normal"
+	},
+	"extensions": {
+		"recommendations": []
+	}
+}

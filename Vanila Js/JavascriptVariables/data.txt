@@ -1,0 +1,15 @@
+
+
+[
+{
+  "name":"deepak",
+  "dateofBirth" : "17-05-1984",
+  "Active" : true
+},
+{
+  "name":"Bini",
+  "dateofBirth" : "03-12-1990",
+  "Active" : false
+}
+
+]
