@@ -1,8 +1,6 @@
-import { useContext } from "react";
+import { useNavigate } from "react-router";
 import logo from "../assets/GloboLogo.png";
 import  {logo as logoCss } from "./Banner.module.css";
-import navigationContext from "../Navigations/NavigationContext";
-import navValues from "../Navigations/NavValues";
 
 const subtextStyle={
    fontStyle:"italic",
@@ -11,11 +9,11 @@ const subtextStyle={
 }
 
 const Banner = ({children}) => {
-  const {navigate} = useContext(navigationContext);
+  const navigate = useNavigate();
   return (
     <header className="row mb-4">
       <div className="col-5">
-        <img onClick={()=> navigate(navValues.HouseList)} src={logo} alt="Logo" className={logoCss}/>
+        <img onClick={()=> navigate('/')} src={logo} alt="Logo" className={logoCss}/>
       </div>
       <div className="col-7 mt-5" style={subtextStyle}>{children}</div>
     </header>

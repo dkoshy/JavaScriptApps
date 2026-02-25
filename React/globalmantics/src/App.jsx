@@ -1,28 +1,23 @@
-import { useCallback, useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router";
 import Banner from "./components/Banner";
 import ErrorBoundary from "./components/ErrorBoundary";
-import navValues from "./Navigations/NavValues";
-import navigationContext from "./Navigations/NavigationContext";
-import ComponentPicker from  "./components/ComponentPicker"
+import HouseList from "./components/HoseList";
+import House from "./components/House";
 import "./App.css";
 
 function App() {
-  const navigate = useCallback(
-    (navTo, param) => setNav({ current: navTo, param, navigate }),
-    [],
-  );
-
-  const [nav, setNav] = useState({ current: navValues.HouseList, navigate });
-
   return (
-    <navigationContext.Provider value={nav}>
+    <BrowserRouter>
       <ErrorBoundary fallback="something went wrong!">
         <Banner>
           <div>Providing houses all over the world.</div>
         </Banner>
-        <ComponentPicker navLocation={nav.current} />
+        <Routes>
+          <Route index element={<HouseList />} />
+          <Route path="house" element={<House />} />
+        </Routes>
       </ErrorBoundary>
-    </navigationContext.Provider>
+    </BrowserRouter>
   );
 }
 export default App;
