@@ -2,14 +2,14 @@ import navValues from "../Navigations/NavValues";
 import HouseList from "./HoseList";
 import House from "./House";
 
-const ComponentPicker = ({ navValue }) => {
-  switch (navValue) {
+const ComponentPicker = ({ navLocation }) => {
+  switch (navLocation) {
     case navValues.HouseList:
       return <HouseList />;
     case navValues.HoseDetails:
       return <House />;
     default:
-      return <h2>No components matches the value {navValue} </h2>;
+      return <h2>No components matches the value {navLocation} </h2>;
   }
 };
 

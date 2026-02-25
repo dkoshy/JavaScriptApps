@@ -1,6 +1,6 @@
 import { createContext } from "react";
 import navValues from "./NavValues";
 
-const NavigationContext = createContext(navValues.HouseList);
+const navigationContext = createContext(navValues.HouseList);
 
-export default NavigationContext;
+export default navigationContext;

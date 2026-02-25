@@ -20,7 +20,7 @@ const houseArray = [
   },
 ];*/
 
-const HouseList = ({ selectHouse }) => {
+const HouseList = () => {
   /*
   const [houses, setHouses] = useState(houseArray);
 
@@ -69,7 +69,7 @@ const HouseList = ({ selectHouse }) => {
         <tbody>
           <ErrorBoundary fallback="Error loading house rows!">
             {houses.map((h) => (
-              <HouseRow key={h.id} house={h} selectHouse={selectHouse} />
+              <HouseRow key={h.id} house={h}/>
             ))}
           </ErrorBoundary>
         </tbody>
