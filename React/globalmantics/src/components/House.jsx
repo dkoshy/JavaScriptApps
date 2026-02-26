@@ -1,10 +1,11 @@
 import { useLocation } from "react-router";
 import currencyFormatter from "../helpers/CurrencyFormatter";
+import Bid from "./Bid.jsx";
 
 const House = () => {
   const location = useLocation();
-  const {house} = location.state;
-  
+  const { house } = location.state;
+
   return (
     <div className="row">
       <div className="col-6">
@@ -35,6 +36,7 @@ const House = () => {
         <div className="row">
           <div className="col-12 mt-3">{house.description}</div>
         </div>
+        <Bid houseId={house.id} />
       </div>
     </div>
   );
