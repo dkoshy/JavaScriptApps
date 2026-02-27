@@ -2,7 +2,8 @@ import currencyFormatter from "../helpers/CurrencyFormatter";
 import loadingStatus from "../helpers/LoadingStatus";
 import useBid from "../hooks/useBid";
 import LoadingIndicator from "./LoadingIndicator";
-import NewBid from "./NewBid";
+import BidFormAction from "./BidFormAction";
+// import NewBid from "./NewBid";
 
 const Bid = ({ houseId }) => {
   const { bids, loadingState, addBid } = useBid(houseId);
@@ -32,7 +33,8 @@ const Bid = ({ houseId }) => {
           </table>
         </div>
       </div>
-     <NewBid houseId={houseId} addBid={addBid}/>
+     {/* <NewBid houseId={houseId} addBid={addBid}/> */}
+     <BidFormAction houseId={houseId} addBid={addBid}/>
     </>
   );
 };

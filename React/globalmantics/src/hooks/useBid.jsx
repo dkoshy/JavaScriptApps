@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import loadingStatus from "../helpers/LoadingStatus";
-import NewBid from "../components/NewBid";
 
 const useBid = (houseId) => {
   const [bids, setBids] = useState([]);
