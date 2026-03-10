@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Queries</title>
+  <style>
+    .desktop,
+    .print {
+      display: none;
+    }
+
+    @media print {
+
+      .desktop,
+      .mobile {
+        display: none;
+      }
+
+      .print {
+        display: block;
+      }
+    }
+
+      @media screen and (min-width:768px) {
+        .desktop {
+          display: block;
+        }
+
+        .mobile {
+          display: none;
+        }
+
+      }
+    
+  </style>
+</head>
+
+<body>
+  <div class="desktop">desktop</div>
+  <div class="mobile">mobile</div>
+  <div class="print">print</div>
+</body>
+
+</html>
