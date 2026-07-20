@@ -1,0 +1,68 @@
+{
+  "toyota_early_models": [
+    {
+      "model": "Toyoda Model AA",
+      "year": 1936,
+      "specs": {
+        "body_style": "4-door sedan",
+        "transmission": "3-speed manual",
+        "chassis": "Ladder frame",
+        "suspension": "Rigid axles with leaf springs (front and rear)",
+        "top_speed": "Approximately 100 km/h (62 mph)"
+      }
+    },
+    {
+      "model": "Toyota Model SA",
+      "year": 1947,
+      "specs": {
+        "body_style": "2-door sedan",
+        "transmission": "3-speed manual",
+        "chassis": "Backbone chassis",
+        "suspension": "Independent front suspension (four-wheel independent setup)",
+        "significance": "Toyota's first passenger car utilizing independent suspension components."
+      }
+    },
+    {
+      "model": "Toyota Land Cruiser (BJ Series)",
+      "year": 1951,
+      "specs": {
+        "body_style": "Open 2-door 4×4",
+        "transmission": "4-speed manual",
+        "drive_configuration": "Part-time four-wheel drive",
+        "torque_output": "211 N·m (156 lb·ft) @ 1,600 rpm",
+        "significance": "Built to handle extreme off-road terrain, establishing the brand's reputation for rugged durability."
+      }
+    },
+    {
+      "model": "Toyota Crown (RS Series)",
+      "year": 1955,
+      "specs": {
+        "body_style": "4-door sedan (featuring rear suicide doors)",
+        "transmission": "3-speed manual (column shift)",
+        "suspension": "Double wishbone front suspension with coil springs",
+        "weight": "1,210 kg (2,668 lbs)"
+      }
+    },
+    {
+      "model": "Toyota Corolla (KE10)",
+      "year": 1966,
+      "specs": {
+        "body_style": "2-door sedan / 4-door sedan / station wagon",
+        "transmission": "4-speed manual (floor shift) or 2-speed automatic",
+        "suspension": "MacPherson strut front suspension (revolutionary for compact cars at the time)",
+        "weight": "690 kg (1,521 lbs)"
+      }
+    },
+    {
+      "model": "Toyota 2000GT (MF10)",
+      "year": 1967,
+      "specs": {
+        "body_style": "2-door fastback coupe",
+        "transmission": "5-speed manual or 3-speed automatic",
+        "torque_output": "175 N·m (129 lb·ft) @ 5,000 rpm",
+        "brakes": "Four-wheel Dunlop disc brakes (a first for a Japanese production car)",
+        "top_speed": "220 km/h (137 mph)"
+      }
+    }
+  ]
+}

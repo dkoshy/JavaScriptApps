@@ -1,0 +1,16 @@
+
+let user= {};
+let createUser;
+(function initialize(name)
+{
+   let userName = name;
+
+    createUser = function(){
+       user.userName = userName;
+        console.log(`user ${userName} is created` );
+    }
+    
+})("Deepak");
+
+createUser();
+console.log(user);
